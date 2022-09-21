@@ -11,22 +11,21 @@ body {
    justify-content: center;
 }
 
-.profile {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
 .container {
   width: 380px; 
   background-color: #ffffff; 
   font-family: 'Inter', san-serif;
   text-align: center;
-  border-radius: 10px
+}
+
+.profile {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 h1 {
   color: #050303;
-  font-size: 27px;
+  font-size: 1.8rem;
   text-align: center;
   margin: 1.5rem 0 0.5rem 0;
 }
@@ -83,7 +82,7 @@ button > span {
 
 .about-text > h4 {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.3rem;
   color: #050303;
 }
 
@@ -91,7 +90,7 @@ button > span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 1rem;
   background-color: #82E0AA;
   border-radius: 0 0 10px 10px;
   height: 64px;
