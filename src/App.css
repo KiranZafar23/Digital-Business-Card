@@ -1,0 +1,98 @@
+body {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.border-box {
+   padding: 2rem;
+   background-color: #D5F1E0;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+
+.profile {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+  width: 380px; 
+  background-color: #ffffff; 
+  font-family: 'Inter', san-serif;
+  text-align: center;
+  border-radius: 10px
+}
+
+h1 {
+  color: #050303;
+  font-size: 27px;
+  text-align: center;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+h4 {
+  color: #050303;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 5px 0px 5px 0px;
+}
+
+
+a {
+  text-decoration: none; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #050303;
+}
+
+.buttons {
+  display: flex;
+  padding: 1.5rem 0 0 0;
+  margin: 0 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 110px;
+}
+
+button > span { 
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+}
+
+.about-text {
+  margin: 2rem;
+  font-size: 15px;
+  line-height: 150%; 
+  text-align: left;
+  color: #050303;    
+}
+
+.about-text > h4 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #050303;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #82E0AA;
+  border-radius: 0 0 10px 10px;
+  height: 64px;
+}
